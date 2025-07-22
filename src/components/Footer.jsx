@@ -1,10 +1,9 @@
+import "../assets/components/Footer.css"
+
 function Footer() {
   return (
-    <footer
-      className="flex"
-      style={{ backgroundColor: "var(--color-rojo-ceibo)" }}
-    >
-      <div className="container">
+    <footer>
+      <div className="footer">
         <p>Fuego Originario</p>
         <p>
           Primera entrega - Proyecto de diseño de indumentaria y producción

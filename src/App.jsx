@@ -8,13 +8,13 @@ function App() {
 
 
   return (
-    <>
+    <div className="app">
       <HeroPage />
       <ConceptoPage />
       <PrincipiosPage />
       <ContenedorPage />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -4,17 +4,17 @@ import ScrollReveal from "scrollreveal";
 function ConceptoPage() {
   useEffect(() => {
     ScrollReveal().reveal(".concepto-content", {
-      delay: 300,
-      origin: "left",
-      distance: "60px",
-      duration: 1000,
+      delay: 800,
+      origin: "bottom",
+      distance: "80px",
+      duration: 1600,
       easing: "ease-in-out",
       reset: false,
     });
   }, []);
 
   return (
-    <section className="section parallax">
+    <section className="section parallax flex flex-center">
       <div className="container concepto-content">
         <h2>CONCEPTO: IRREVERENCIA</h2>
         <p>

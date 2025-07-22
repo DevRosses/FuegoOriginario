@@ -6,10 +6,10 @@ import "../assets/pages/HeroPage.css";
 function Hero() {
   useEffect(() => {
     ScrollReveal().reveal(".hero-content", {
-      delay: 200,
-      distance: "50px",
+      delay: 800,
+      distance: "80px",
       origin: "bottom",
-      duration: 800,
+      duration: 1600,
       easing: "ease-in-out",
       reset: false,
     });
