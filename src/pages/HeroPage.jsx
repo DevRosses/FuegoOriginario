@@ -22,9 +22,9 @@ function Hero() {
         Tu navegador no soporta videos HTML5.
       </video>
       <div className="hero-content">
-        <h1 className="hero-title">CEIBO</h1>
+        <h1 className="hero-title">Fuego Originario</h1>
         <p className="hero-subtitle">
-          Colección Cápsula: Irreverencia Funcional
+          Colección CEIBO: Irreverencia Funcional 
         </p>
       </div>
     </section>
