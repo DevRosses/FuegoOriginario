@@ -14,7 +14,7 @@ function ConceptoPage() {
   }, []);
 
   return (
-    <section className="section parallax flex flex-center">
+    <section className="section parallax">
       <div className="container concepto-content">
         <h2>CONCEPTO: IRREVERENCIA</h2>
         <p>

@@ -17,7 +17,40 @@ body {
 
 .app {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr) 40px;
+  grid-template-areas:
+    "hero"
+    "concepto"
+    "principios"
+    "contenedor"
+    "footer";
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.concepto {
+  grid-area: concepto;
+}
+
+.principios {
+  grid-area: principios;
+}
+
+.contenedor {
+  grid-area: contenedor;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* -------------------------------------------->>>  Media queries */
+
+/* Desktop */
+@media (width >= 1200px) {    
+
 }

@@ -19,17 +19,17 @@ function Galeria() {
   }, []);
 
   return (
-    <div className="gallery-grid">
-      <div className="gallery-item">
+    <div className="gallery__grid">
+      <div className="gallery__item card">
         <img src={Ceibo1} alt="Ceibo textura 1" />
       </div>
-      <div className="gallery-item">
+      <div className="gallery__item card">
         <img src={Ceibo2} alt="Ceibo textura 2" />
       </div>
-      <div className="gallery-item">
+      <div className="gallery__item card">
         <img src={Ceibo3} alt="Ceibo inspiración urbana" />
       </div>
-      <div className="gallery-item">
+      <div className="gallery__item card">
         <img src={Ceibo4} alt="Ceibo madera quemada" />
       </div>
     </div>

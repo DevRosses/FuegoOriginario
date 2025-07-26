@@ -14,8 +14,8 @@ function PrincipiosPage() {
   }, []);
 
   return (
-    <section className="section parallax flex flex-center">
-      <div className="container principio">
+    <section className="section parallax ">
+      <div className="container">
         <div className="gallery-grid">
           <div className="gallery-item card">
             <h3>Estructura Adaptativa</h3>
